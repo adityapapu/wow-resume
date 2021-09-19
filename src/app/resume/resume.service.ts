@@ -7,14 +7,14 @@ import { BehaviorSubject } from 'rxjs';
 })
 
 export class ResumeService {
-  private _degrees: string[] = ['B.E.', 'M.E.', 'B.Com', 'M.Com'];
+  private _degrees: string[] = ['B.E.', 'M.E.', 'B Tech', 'M Tech','MCA','BCA'];
   // tslint:disable-next-line: max-line-length
   private _resume = new Resume(
-        null, 'Richard', 'St.Antonio Place, Delhi', 8877665544, 'richtest@gmail.com', 'NA', 'No Other details',
-        [new Experience('Cognizant', 'Developer', 'Solutions Architect', 'july', 10),
-        new Experience('MPhasis', 'Developer', 'Architect', 'march', 5)],
-        [new Education('M.E.', 'St.Thomas', '2004', 98),
-        new Education('B.E.', 'St.Judas', '2002', 78)],
+        null, 'Priyanka Naidu', 'Lovely Proffessional University,Punjab', 9999999999, 'npriyanka783@gmail.com', 'NA', 'No Other details',
+        [new Experience('Venturepact', 'Associate Software Developer', 'Solutions Architect', 'july', 10),
+        new Experience('XYZ', 'Developer', 'Architect', 'march', 5)],
+        [new Education('MCA.', 'Lovely Prfessional University', '2020', 98),
+        new Education('BCA', 'CUO', '2017', 78)],
         [new Skill('Communication'),
         new Skill('Team Player'),
         new Skill('Fast-Learner'),

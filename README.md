@@ -104,7 +104,7 @@ We encourage you to contribute. Please check out the [Contributing guide](CONTRI
 <table>
   <tr>
     <td align="center"><a href="htts://www.richierich25.com">
-    <img src="https://user-images.githubusercontent.com/34006942/95364922-0e984c00-08ef-11eb-9e3b-48cfd6f844e7.jpg" width="100px;" alt=""/><br /><sub><b>Richard Abraham</b></sub></a></td>
+    <img src="https://user-images.githubusercontent.com/34006942/95364922-0e984c00-08ef-11eb-9e3b-48cfd6f844e7.jpg" width="100px;" alt=""/><br /><sub><b>Priyanka </b></sub></a></td>
   </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->

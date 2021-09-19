@@ -14,15 +14,12 @@ export class GeneratePdfService {
     const documentDefinition = this.getDocumentDefinition(Object.assign({}, resume)); // create a new object for resume
 
     switch (action) {
-      case 'print':
-        pdfMake.createPdf(documentDefinition).print();
-        break;
+      
       case 'download':
         pdfMake.createPdf(documentDefinition).download();
         break;
-      case 'open':
       default:
-        pdfMake.createPdf(documentDefinition).open();
+        pdfMake.createPdf(documentDefinition).download();
         break;
     }
   }
@@ -109,22 +106,6 @@ export class GeneratePdfService {
         },
         {
           text: resume.otherDetails,
-        },
-        {
-          text: 'Signature',
-          style: 'sign',
-        },
-        {
-          columns: [
-            {
-              qr: resume.name + ', Contact No : ' + resume.contactNo,
-              fit: 100,
-            },
-            {
-              text: `(${resume.name})`,
-              alignment: 'right',
-            },
-          ],
         },
       ],
       info: {
